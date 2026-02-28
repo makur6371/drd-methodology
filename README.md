@@ -7,11 +7,32 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/makur6371/drd-methodology?style=social)](https://github.com/makur6371/drd-methodology/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/makur6371/drd-methodology?style=social)](https://github.com/makur6371/drd-methodology/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/makur6371/drd-methodology)](https://github.com/makur6371/drd-methodology/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/makur6371/drd-methodology)](https://github.com/makur6371/drd-methodology/pulls)
 [![文档](https://img.shields.io/badge/文档-中文-blue.svg)](README.md)
+[![English](https://img.shields.io/badge/文档-English-green.svg)](README_EN.md)
+[![Node.js](https://img.shields.io/badge/Node.js-14+-green.svg)](https://nodejs.org/)
+[![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **通过多轮深度对话 + 外部调研 + 迭代精炼，将模糊愿景转化为可执行方案**
 
 </div>
+
+---
+
+## 📑 目录
+
+- [📚 什么是 DRD？](#什么是-drd)
+- [🔄 核心流程](#核心流程)
+- [🚀 快速开始](#快速开始)
+- [🤖 DRD AI 助手](#drd-ai-助手)
+- [📖 文档](#文档)
+- [🎯 案例研究](#案例研究)
+- [💡 关键成功因素](#关键成功因素)
+- [🤝 贡献](#贡献)
+- [📄 许可证](#许可证)
+- [📦 项目结构](#项目结构)
+- [📮 联系方式](#联系方式)
 
 ---
 
