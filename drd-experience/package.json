@@ -1,1 +1,0 @@
-{"name": "drd-experience", "version": "1.0.0", "description": "DRD 方法论交互式体验程序", "main": "index.js", "type": "module", "scripts": {"start": "node index.js", "test": "echo \"Error: no test specified\" && exit 1"}, "keywords": ["drd", "dialogue-refinement-development", "ai-development", "methodology"], "author": "makur6371", "license": "MIT"}
