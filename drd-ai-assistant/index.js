@@ -42,6 +42,10 @@ async function configureAPI() {
   console.log('='.repeat(60));
   
   console.log('\n请配置你的 AI API（兼容 OpenAI 格式）\n');
+  console.log('💡 提示：');
+  console.log('  - 硅基流动: https://api.siliconflow.cn/v1');
+  console.log('  - OpenAI: https://api.openai.com');
+  console.log('  - 其他兼容 API: 请查看提供商文档\n');
   
   const baseUrl = await question('API Base URL (例如: https://api.openai.com): ');
   const apiKey = await question('API Key: ');

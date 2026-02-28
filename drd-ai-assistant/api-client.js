@@ -10,7 +10,8 @@ class OpenAIClient {
 
   // 配置 API
   configure(baseUrl, apiKey, model) {
-    this.baseUrl = baseUrl.replace(/\/$/, ''); // 移除末尾斜杠
+    // 移除末尾斜杠
+    this.baseUrl = baseUrl.replace(/\/$/, '');
     this.apiKey = apiKey;
     this.model = model;
     
@@ -19,10 +20,20 @@ class OpenAIClient {
     });
   }
 
+  // 获取完整的 API URL
+  getApiUrl(endpoint) {
+    // 如果 baseUrl 已经包含 /v1，直接拼接
+    if (this.baseUrl.endsWith('/v1')) {
+      return `${this.baseUrl}/${endpoint}`;
+    }
+    // 否则添加 /v1
+    return `${this.baseUrl}/v1/${endpoint}`;
+  }
+
   // 获取可用模型列表
   async getModels() {
     try {
-      const response = await fetch(`${this.baseUrl}/v1/models`, {
+      const response = await fetch(this.getApiUrl('models'), {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${this.apiKey}`,
@@ -47,7 +58,7 @@ class OpenAIClient {
     const config = getConfig();
     
     try {
-      const response = await fetch(`${this.baseUrl}/v1/chat/completions`, {
+      const response = await fetch(this.getApiUrl('chat/completions'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${this.apiKey}`,
