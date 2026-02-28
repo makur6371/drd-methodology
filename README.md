@@ -127,13 +127,14 @@ DRD 方法包含 5 个阶段：
 
 ## 🙏 致谢
 
-DRD 方法论由 AI + 人类协作共同创造和完善。
+DRD 方法论由 AI + Makur。
 
 ---
 
 ## 📮 联系方式
 
 如有问题或建议，欢迎提交 Issue 或 Pull Request。
+QQ 3397023886
 
 ---
 
@@ -141,6 +142,6 @@ DRD 方法论由 AI + 人类协作共同创造和完善。
 
 **记住：DRD 的核心是对话，而不是文档。文档是对话的产物，不是起点。**
 
-Made with ❤️ by AI + Human Collaboration
+Made with ❤️ by AI + Makur
 
 </div>
