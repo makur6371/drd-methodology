@@ -1,0 +1,1 @@
+{"name": "drd-ai-assistant", "version": "1.0.0", "description": "DRD 方法论 AI 助手 - 通过对话生成项目方案", "main": "index.js", "type": "module", "scripts": {"start": "node index.js", "dev": "node --watch index.js"}, "keywords": ["drd", "ai", "openai", "project-planning", "methodology"], "author": "makur6371", "license": "MIT"}
