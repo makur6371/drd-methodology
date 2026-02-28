@@ -86,6 +86,37 @@ DRD 方法包含 5 个阶段：
 
 ---
 
+## 🎮 交互式体验
+
+想亲身体验 DRD 方法论？我们提供了一个交互式命令行程序！
+
+### 快速体验
+
+```bash
+# 进入体验程序目录
+cd drd-experience
+
+# Windows 用户
+start.bat
+
+# Mac/Linux 用户
+chmod +x start.sh
+./start.sh
+
+# 或者直接运行
+node index.js
+```
+
+### 体验模式
+
+1. **🎮 完整体验** - 从头开始体验 DRD 方法论的 5 个阶段
+2. **📖 示例演示** - 查看 nflow 项目的完整案例
+3. **🎲 随机阶段** - 体验单个阶段
+
+详细使用说明请查看：[drd-experience/README.md](./drd-experience/README.md)
+
+---
+
 ## 📖 文档
 
 | 文档 | 描述 |
