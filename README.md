@@ -1,11 +1,13 @@
-# 对话精炼开发法 (DRD)
-
 <div align="center">
+
+# 🔥 对话精炼开发法 (DRD)
 
 **Dialogue-Refinement-Development Methodology**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![中文文档](https://img.shields.io/badge/文档-中文-blue.svg)](README.md)
+[![GitHub stars](https://img.shields.io/github/stars/makur6371/drd-methodology?style=social)](https://github.com/makur6371/drd-methodology/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/makur6371/drd-methodology?style=social)](https://github.com/makur6371/drd-methodology/network/members)
+[![文档](https://img.shields.io/badge/文档-中文-blue.svg)](README.md)
 
 **通过多轮深度对话 + 外部调研 + 迭代精炼，将模糊愿景转化为可执行方案**
 
@@ -15,14 +17,17 @@
 
 ## 📚 什么是 DRD？
 
-**对话精炼开发法（Dialogue-Refinement-Development，DRD）** 是一种创新的 AI 辅助项目开发方法论，适用于技术改造、AI 应用开发、新产品规划和复杂系统设计。
+> **对话精炼开发法（Dialogue-Refinement-Development，DRD）** 是一种创新的 AI 辅助项目开发方法论，适用于技术改造、AI 应用开发、新产品规划和复杂系统设计。
 
-### 核心价值
+<div align="center">
 
-- 🎯 **需求精准落地** - 从模糊愿景到具体指标
-- 🔍 **问题早期发现** - 通过对话暴露潜在问题
-- 📊 **方案可执行** - 分阶段、可量化、可验证
-- 🚀 **提高成功率** - 减少返工，降低风险
+### 🌟 核心价值
+
+| 🎯 需求精准落地 | 🔍 问题早期发现 | 📊 方案可执行 | 🚀 提高成功率 |
+|:--------------:|:--------------:|:------------:|:------------:|
+| 从模糊愿景到具体指标 | 通过对话暴露潜在问题 | 分阶段、可量化、可验证 | 减少返工，降低风险 |
+
+</div>
 
 ---
 
@@ -50,15 +55,21 @@ DRD 方法包含 5 个阶段：
 
 ### 适用场景
 
-✅ **适合的项目类型**：
-- 技术改造项目（如基于现有项目改造）
-- AI 应用开发（新兴技术领域）
-- 新产品规划（创新性产品）
-- 复杂系统设计（多模块、多交互）
+<div align="center">
 
-❌ **不适合的项目类型**：
-- 简单任务（过度设计）
-- 技术成熟的标准项目（已有最佳实践）
+**✅ 适合的项目类型**
+
+| 🔧 技术改造项目 | 🤖 AI 应用开发 | 🆕 新产品规划 | 🏗️ 复杂系统设计 |
+|:--------------:|:--------------:|:------------:|:------------:|
+| 基于现有项目改造 | 新兴技术领域 | 创新性产品 | 多模块、多交互 |
+
+**❌ 不适合的项目类型**
+
+| 📝 简单任务 | 📋 技术成熟的标准项目 |
+|:----------:|:-------------------:|
+| 过度设计 | 已有最佳实践 |
+
+</div>
 
 ### 快速检查清单
 
@@ -77,8 +88,10 @@ DRD 方法包含 5 个阶段：
 
 ## 📖 文档
 
-- [课题研究.md](./docs/课题研究.md) - 完整的方法论文档（约 15000 字）
-- [快速参考.md](./docs/快速参考.md) - 简明版本，快速查阅方法要点
+| 文档 | 描述 |
+|------|------|
+| [📚 课题研究.md](./课题研究.md) | 完整的方法论文档（约 15000 字） |
+| [⚡ 快速参考.md](./快速参考.md) | 简明版本，快速查阅方法要点 |
 
 ---
 
@@ -86,20 +99,33 @@ DRD 方法包含 5 个阶段：
 
 ### nflow 项目
 
-**项目背景**：将 iflow-cli 改造为 AI 小说写作工具
+<div align="center">
 
-**应用 DRD 方法**：
-- 对话轮次：约 20 轮
-- 产出文档：4 个完整文档
-- 文档规模：约 15000 字
-- 核心成果：
-  - 6 个核心 Agent 设计
-  - 字数控制系统（2000-2500字）
-  - 质量把控闭环（审核→检查→修复→评分）
-  - 自动修复机制（6种问题类型）
-  - 零成本方案（iflow 免费模型）
+**将 iflow-cli 改造为 AI 小说写作工具**
 
-完整案例详见：[课题研究.md](./docs/课题研究.md#-案例研究nflow-项目)
+</div>
+
+**📊 应用 DRD 方法成果**：
+
+| 指标 | 数值 |
+|------|------|
+| 💬 对话轮次 | 约 20 轮 |
+| 📄 产出文档 | 4 个完整文档 |
+| 📝 文档规模 | 约 15000 字 |
+
+**✨ 核心成果**：
+
+```
+┌─────────────────────────────────────────┐
+│  🤖 6 个核心 Agent 设计                  │
+│  📏 字数控制系统（2000-2500字）          │
+│  🔄 质量把控闭环（审核→检查→修复→评分）  │
+│  🔧 自动修复机制（6种问题类型）          │
+│  💰 零成本方案（iflow 免费模型）          │
+└─────────────────────────────────────────┘
+```
+
+完整案例详见：[课题研究.md](./课题研究.md#-案例研究nflow-项目)
 
 ---
 
@@ -133,15 +159,22 @@ DRD 方法论由 AI + Makur。
 
 ## 📮 联系方式
 
-如有问题或建议，欢迎提交 Issue 或 Pull Request。
-QQ 3397023886
+- 💬 **提交 Issue**：[创建问题](https://github.com/makur6371/drd-methodology/issues)
+- 🔄 **提交 PR**：[贡献代码](https://github.com/makur6371/drd-methodology/pulls)
+- 📧 **邮箱**：3397023886@qq.com
 
 ---
 
 <div align="center">
 
-**记住：DRD 的核心是对话，而不是文档。文档是对话的产物，不是起点。**
+### 💡 核心理念
 
-Made with ❤️ by AI + Makur
+> **DRD 的核心是对话，而不是文档。文档是对话的产物，不是起点。**
+
+---
+
+**Made with ❤️ by AI + Makur**
+
+[![GitHub](https://img.shields.io/badge/GitHub-makur6371-black?style=for-the-badge&logo=github)](https://github.com/makur6371)
 
 </div>
