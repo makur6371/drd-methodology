@@ -17,17 +17,33 @@ DRD AI 助手是一个基于**对话精炼开发法 (DRD)** 的 AI 驱动项目�
 ### 环境要求
 
 - Node.js 14+
-- 兼容 OpenAI 格式的 API（OpenAI、Azure、国内 API 等）
+- 兼容 OpenAI 格式的 API（OpenAI、Azure、硅基流动等）
 
 ### 安装运行
 
 ```bash
-# 进入项目目录
+# 1. 进入项目目录
 cd drd-ai-assistant
 
-# 运行程序
+# 2. 运行程序
 node index.js
 ```
+
+### 首次使用
+
+1. **配置 API**
+   - 输入 API Base URL（例如：`https://api.siliconflow.cn/v1`）
+   - 输入 API Key
+   - 选择使用的模型
+
+2. **开始项目规划**
+   - 输入项目名称
+   - 按照提示完成 5 个阶段的对话
+   - 每个阶段输入 `done` 完成该阶段
+
+3. **生成方案文档**
+   - 完成 5 个阶段后，程序会自动生成方案文档
+   - 选择保存到文件或在终端显示
 
 ## 📖 使用流程
 

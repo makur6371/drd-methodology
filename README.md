@@ -93,11 +93,21 @@ DRD 方法包含 5 个阶段：
 ### 快速开始
 
 ```bash
-# 进入 AI 助手目录
+# 1. 进入 AI 助手目录
 cd drd-ai-assistant
 
-# 运行程序
+# 2. 运行程序
 node index.js
+
+# 3. 配置 API
+# - 输入 API Base URL（如：https://api.siliconflow.cn/v1）
+# - 输入 API Key
+# - 选择使用的模型
+
+# 4. 开始项目规划
+# - 输入项目名称
+# - 完成 5 个阶段的对话（每个阶段输入 done 完成）
+# - 生成方案文档
 ```
 
 ### 核心功能
